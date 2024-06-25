@@ -1,0 +1,69 @@
+body {
+    background-image: url("pj.png");
+    background-size: cover;
+  }
+  h1 {
+    background-color: rgba(0, 0, 0, 0.7); /* Faded black background */
+    color: #e1d7d7; /* White text color for good contrast */
+    padding: 20px 0; /* Top and bottom padding */
+    text-align: center;
+    margin: 0; /* Remove default margin */
+    width: 100%; /* Full width */ 
+  }
+  h2:hover{
+    background-color: black;
+  }
+  h2 {
+    color: #ffffff; /* White text color for good contrast */ 
+    background-color: rgba(0, 0, 0, 0.6); /* Faded black background */
+    display: inline;
+  }
+
+body{
+    text-align: center;
+}
+.btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 2rem;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+
+.red{
+    background-color: #0000ff;
+}
+.green{
+    background-color: rgb(47, 255, 0);
+}
+.yellow{
+    background-color: rgb(234, 0, 0);
+}
+.purple{
+    background-color: rgb(132, 49, 132);
+}
+
+.flash{
+    background-color: white;
+}
+
+.userflash{
+    background-color: rgb(255, 255, 255);
+}
+
+.Explain{
+    
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    
+}
+
+p{
+    display: inline;
+    background-color: rgba(0, 0, 0, 0.8);
+}
